@@ -108,7 +108,6 @@
     <ClCompile Include="Source\XRF.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Include\Modules\XCrdAPI.h" />
     <ClInclude Include="Include\PCH.h" />
     <ClInclude Include="Include\XRF.h" />
   </ItemGroup>
