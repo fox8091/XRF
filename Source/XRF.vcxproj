@@ -105,10 +105,12 @@
     <ClCompile Include="Source\PCH.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Source\XBFS.cpp" />
     <ClCompile Include="Source\XRF.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\PCH.h" />
+    <ClInclude Include="Include\XBFS.h" />
     <ClInclude Include="Include\XRF.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
