@@ -8,5 +8,6 @@
 #include <vector>
 #include <psapi.h>
 #include <SubAuth.h>
+#include <lmcons.h>
 
 #define NT_SUCCESS(Status) ((NTSTATUS)(Status) >= 0)

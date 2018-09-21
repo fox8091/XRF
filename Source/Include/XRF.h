@@ -121,3 +121,4 @@
 
 void PrintConsoleRevision();
 void PrintDevkitType();
+void PrintCurrentUser();

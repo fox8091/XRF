@@ -113,3 +113,11 @@ void PrintDevkitType()
 
 	printf("Console Flavour: %s\n", flavour);
 }
+
+void PrintCurrentUser()
+{
+	char username[UNLEN + 1];
+	DWORD usernameLength = UNLEN + 1;
+	GetUserNameA(username, &usernameLength);
+	printf("Running as: %s", username);
+}
