@@ -14,7 +14,22 @@ Printing basic console information
 ```
 XRF cinfo
 ```
-
+Printing current user of process
+```
+XRF whoami
+```
+Display contents of flash
+```
+XRF dispflash
+```
+Reading a specified filename from flash (Requires Administrator)
+```
+XRF readflash [filename] [destination]
+```
+Dumping flash raw (Requires Administrator)
+```
+XRF dumpflash [dumpname]
+```
 
 ### Credit:
 - emoose
