@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 2) {
 		printf("[XRF] No parameters passed!\n\n");
-		printf("[XRF] Commands: %s", CMD_CONSOLE_INFO);
+		printf("[XRF] Commands: %s %s %s %s %s", CMD_CONSOLE_INFO, CMD_DISPFLASH, CMD_READFLASH, CMD_DUMPFLASH, CMD_WHOAMI);
 		return 1;
 	}
 
